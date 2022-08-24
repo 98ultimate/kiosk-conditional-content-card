@@ -12,8 +12,6 @@ class KioskConditionalContentCard extends HTMLElement {
         this.content = this.querySelector('div');
       }
   
-      console.log(hass)
-
       let html = '<b>Active items:</b><br/><br/>'
 
       if (this.config.entities.length > 0) {
@@ -22,7 +20,6 @@ class KioskConditionalContentCard extends HTMLElement {
           const name = hass.states[entityId].attributes.friendly_name;
           const state = hass.states[entityId];
           let stateStr = undefined
-          console.log(hass.states[entityId].attributes.device_class)
           if ( state && state.state ) {
             if (hass.states[entityId].attributes.device_class == "door" ) {
               stateStr = 'open'
