@@ -1,6 +1,6 @@
 # kiosk-conditional-content-card
 
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![GH-last-commit](https://img.shields.io/github/last-commit/98ultimate/kiosk-conditional-content-card.svg?style=flat-square)](https://github.com/98ultimate/kiosk-conditional-content-card/commits/master)
 [![GH-code-size](https://img.shields.io/github/languages/code-size/98ultimate/kiosk-conditional-content-card.svg?color=red&style=flat-square)](https://github.com/98ultimate/kiosk-conditional-content-card)
 
