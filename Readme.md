@@ -12,7 +12,7 @@ Example lovelace yaml to use with homeassistant:
         - binary_sensor.movesonsor2
         - binary_sensor.movesonsor3
         state_filter:
-        - 'on'
+            - 'on'
         type: entity-filter
         card:
             type: custom:kiosk-conditional-content-card
