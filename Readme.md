@@ -2,7 +2,7 @@
 
 This is example lovelace card to use with homeassistant / alarmo-card. It will simply list open sensors with conditional card.
 
-Example lovelace syntaxe to use:
+Example lovelace yaml to use with homeassistant:
 
     - card:
         entities:
