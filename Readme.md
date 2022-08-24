@@ -4,7 +4,7 @@ This is example lovelace card to use with homeassistant / alarmo-card. It will s
 
 Example lovelace yaml to use with homeassistant:
 
-    - card:
+    card:
         entities:
         - binary_sensor.sensor1
         - binary_sensor.doorsensor1
@@ -15,11 +15,11 @@ Example lovelace yaml to use with homeassistant:
         - 'on'
         type: entity-filter
         card:
-        type: custom:kiosk-conditional-content-card
-        show_name: true
-        show_icon: false
-        show_state: true
+            type: custom:kiosk-conditional-content-card
+            show_name: true
+            show_icon: false
+            show_state: true
     conditions:
         - entity: alarm_control_panel.alarmo
-        state: disarmed
+          state: disarmed
     type: conditional
