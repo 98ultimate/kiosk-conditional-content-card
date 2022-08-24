@@ -1,0 +1,5 @@
+{
+  "name": "kiosk-conditional-content-card",
+  "render_readme": false,
+  "homeassistant": "2022.8.0"
+}
